@@ -1,0 +1,1 @@
+STRUCTURAL LEAKAGE: evaluate_policy_on_oracle merges df_features and df_oracle, then calls policy_fn(row.to_dict()). This exposes y_0..y_5 to the inference function.

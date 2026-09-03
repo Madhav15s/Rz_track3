@@ -1,0 +1,105 @@
+{
+  "incident": {
+    "case_id": "fail_9999",
+    "amount_paise": 75000,
+    "failure_code": "BANK_TIMEOUT",
+    "retries_attempted": 0,
+    "time_since_failure_minutes": 10,
+    "historical_payment_success_rate": 0.8,
+    "engagement_score": 0.9,
+    "payment_method": "card",
+    "customer_value_band": "high"
+  },
+  "steps": [
+    {
+      "step": "causal_recommendation",
+      "decision": {
+        "recommended_action": 2,
+        "expected_incremental_value": 48399.619590785594,
+        "details": [
+          {
+            "action": 0,
+            "name": "NO_ACTION",
+            "uplift": 0.0,
+            "incremental_value": 0.0,
+            "confidence": "HIGH"
+          },
+          {
+            "action": 1,
+            "name": "RETRY_NOW",
+            "uplift": 0.17646263652252278,
+            "incremental_value": 13064.697739189209,
+            "confidence": "HIGH"
+          },
+          {
+            "action": 2,
+            "name": "RETRY_LATER",
+            "uplift": 0.647061594543808,
+            "incremental_value": 48399.619590785594,
+            "confidence": "HIGH"
+          },
+          {
+            "action": 3,
+            "name": "PAYMENT_MESSAGE",
+            "uplift": 0.058818278384589834,
+            "incremental_value": 4251.370878844237,
+            "confidence": "HIGH"
+          },
+          {
+            "action": 4,
+            "name": "ALTERNATE_METHOD",
+            "uplift": 0.07720225236262926,
+            "incremental_value": 5410.1689271971945,
+            "confidence": "HIGH"
+          },
+          {
+            "action": 5,
+            "name": "HUMAN_ESCALATION",
+            "uplift": -0.04780024012536299,
+            "incremental_value": -6145.018009402224,
+            "confidence": "HIGH"
+          }
+        ]
+      }
+    },
+    {
+      "step": "governor_evaluation",
+      "approval": {
+        "status": "APPROVED",
+        "reason": "Passed all safety checks.",
+        "case_id": "fail_9999",
+        "action_id": 2,
+        "correlation_id": "corr_fail_9999_1788389080053",
+        "idempotency_key": "5a7d1ac8d99c9d7aedbc3e2accaa26c98c1be64225b22aeedb9c9a180f133f0e"
+      }
+    },
+    {
+      "step": "razorpay_execution",
+      "result": {
+        "api_status": "SUCCESS",
+        "provider_id": "sim_req_corr_fail_9999_1788389080053",
+        "correlation_id": "corr_fail_9999_1788389080053",
+        "simulated": true
+      }
+    },
+    {
+      "step": "webhook_received",
+      "verification": {
+        "status": "VERIFIED_RECOVERED",
+        "correlation_id": "corr_fail_9999_1788389080053"
+      }
+    },
+    {
+      "step": "ledger_final",
+      "state": {
+        "case_id": "fail_9999",
+        "action_id": 2,
+        "provider_id": "sim_req_corr_fail_9999_1788389080053",
+        "status": "VERIFIED_RECOVERED",
+        "recovered_amount": 75000,
+        "simulated": true,
+        "timestamp": 1788389080.0531807
+      }
+    }
+  ]
+}

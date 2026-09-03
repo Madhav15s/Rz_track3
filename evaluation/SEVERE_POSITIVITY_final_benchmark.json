@@ -1,0 +1,800 @@
+{
+  "raw": {
+    "10": {
+      "Do Nothing": {
+        "incremental_revenue": 0,
+        "net_incremental_revenue": 0,
+        "gross_recovery": 200521062,
+        "policy_regret": 126774594.0,
+        "intervention_rate": 0.0,
+        "abstention_rate": 1.0
+      },
+      "Historical Policy": {
+        "incremental_revenue": 64974725,
+        "net_incremental_revenue": 64530995,
+        "gross_recovery": 265495787,
+        "policy_regret": 62243599.0,
+        "intervention_rate": 0.77,
+        "abstention_rate": 0.23
+      },
+      "Naive Propensity": {
+        "incremental_revenue": 90267383,
+        "net_incremental_revenue": 90072383,
+        "gross_recovery": 290788445,
+        "policy_regret": 227718801.9293071,
+        "intervention_rate": 1.0,
+        "abstention_rate": 0.0
+      },
+      "Propensity": {
+        "incremental_revenue": 77235499,
+        "net_incremental_revenue": 76852149,
+        "gross_recovery": 277756561,
+        "policy_regret": 237644860.34874302,
+        "intervention_rate": 0.99,
+        "abstention_rate": 0.01
+      },
+      "T-Learner": {
+        "incremental_revenue": 77235499,
+        "net_incremental_revenue": 76852149,
+        "gross_recovery": 277756561,
+        "policy_regret": 21548607.152848363,
+        "intervention_rate": 0.99,
+        "abstention_rate": 0.01
+      },
+      "DR-Learner": {
+        "incremental_revenue": 53186682,
+        "net_incremental_revenue": 52656452,
+        "gross_recovery": 253707744,
+        "policy_regret": 60618371.87095772,
+        "intervention_rate": 0.9846666666666667,
+        "abstention_rate": 0.015333333333333332
+      },
+      "Support-Aware Causal": {
+        "incremental_revenue": 73990638,
+        "net_incremental_revenue": 73551268,
+        "gross_recovery": 274511700,
+        "policy_regret": -16587554.919333398,
+        "intervention_rate": 0.9306666666666666,
+        "abstention_rate": 0.06933333333333333
+      },
+      "Oracle": {
+        "incremental_revenue": 126870104,
+        "net_incremental_revenue": 126774594.0,
+        "gross_recovery": 327391166,
+        "policy_regret": 0.0,
+        "intervention_rate": 0.368,
+        "abstention_rate": 0.632
+      }
+    },
+    "20": {
+      "Do Nothing": {
+        "incremental_revenue": 0,
+        "net_incremental_revenue": 0,
+        "gross_recovery": 207331762,
+        "policy_regret": 124516790.0,
+        "intervention_rate": 0.0,
+        "abstention_rate": 1.0
+      },
+      "Historical Policy": {
+        "incremental_revenue": 50507543,
+        "net_incremental_revenue": 50069953,
+        "gross_recovery": 257839305,
+        "policy_regret": 74446837.0,
+        "intervention_rate": 0.77,
+        "abstention_rate": 0.23
+      },
+      "Naive Propensity": {
+        "incremental_revenue": 82116148,
+        "net_incremental_revenue": 81921148,
+        "gross_recovery": 289447910,
+        "policy_regret": 242936949.13332897,
+        "intervention_rate": 1.0,
+        "abstention_rate": 0.0
+      },
+      "Propensity": {
+        "incremental_revenue": 59748412,
+        "net_incremental_revenue": 58049422,
+        "gross_recovery": 267080174,
+        "policy_regret": 259671866.33815336,
+        "intervention_rate": 0.9346666666666666,
+        "abstention_rate": 0.06533333333333333
+      },
+      "T-Learner": {
+        "incremental_revenue": 59748412,
+        "net_incremental_revenue": 58049422,
+        "gross_recovery": 267080174,
+        "policy_regret": 35181631.49626264,
+        "intervention_rate": 0.9346666666666666,
+        "abstention_rate": 0.06533333333333333
+      },
+      "DR-Learner": {
+        "incremental_revenue": 55950913,
+        "net_incremental_revenue": 54167103,
+        "gross_recovery": 263282675,
+        "policy_regret": 51896963.144727916,
+        "intervention_rate": 0.9053333333333333,
+        "abstention_rate": 0.09466666666666666
+      },
+      "Support-Aware Causal": {
+        "incremental_revenue": 59641476,
+        "net_incremental_revenue": 59223046,
+        "gross_recovery": 266973238,
+        "policy_regret": -6334726.2873630375,
+        "intervention_rate": 0.934,
+        "abstention_rate": 0.066
+      },
+      "Oracle": {
+        "incremental_revenue": 124607570,
+        "net_incremental_revenue": 124516790.0,
+        "gross_recovery": 331939332,
+        "policy_regret": 0.0,
+        "intervention_rate": 0.37733333333333335,
+        "abstention_rate": 0.6226666666666667
+      }
+    },
+    "30": {
+      "Do Nothing": {
+        "incremental_revenue": 0,
+        "net_incremental_revenue": 0,
+        "gross_recovery": 195698125,
+        "policy_regret": 108581199.0,
+        "intervention_rate": 0.0,
+        "abstention_rate": 1.0
+      },
+      "Historical Policy": {
+        "incremental_revenue": 46400794,
+        "net_incremental_revenue": 45909124,
+        "gross_recovery": 242098919,
+        "policy_regret": 62672075.0,
+        "intervention_rate": 0.7873333333333333,
+        "abstention_rate": 0.21266666666666667
+      },
+      "Naive Propensity": {
+        "incremental_revenue": 64230174,
+        "net_incremental_revenue": 64035174,
+        "gross_recovery": 259928299,
+        "policy_regret": 238127015.88874096,
+        "intervention_rate": 1.0,
+        "abstention_rate": 0.0
+      },
+      "Propensity": {
+        "incremental_revenue": 63006360,
+        "net_incremental_revenue": 61543650,
+        "gross_recovery": 258704485,
+        "policy_regret": 236255570.85013306,
+        "intervention_rate": 0.96,
+        "abstention_rate": 0.04
+      },
+      "T-Learner": {
+        "incremental_revenue": 63006360,
+        "net_incremental_revenue": 61543650,
+        "gross_recovery": 258704485,
+        "policy_regret": 30678413.20590952,
+        "intervention_rate": 0.96,
+        "abstention_rate": 0.04
+      },
+      "DR-Learner": {
+        "incremental_revenue": 63958018,
+        "net_incremental_revenue": 62567668,
+        "gross_recovery": 259656143,
+        "policy_regret": 34584012.12134436,
+        "intervention_rate": 0.9413333333333334,
+        "abstention_rate": 0.058666666666666666
+      },
+      "Support-Aware Causal": {
+        "incremental_revenue": 53366941,
+        "net_incremental_revenue": 52851781,
+        "gross_recovery": 249065066,
+        "policy_regret": 3573049.574817613,
+        "intervention_rate": 0.9573333333333334,
+        "abstention_rate": 0.042666666666666665
+      },
+      "Oracle": {
+        "incremental_revenue": 108669049,
+        "net_incremental_revenue": 108581199.0,
+        "gross_recovery": 304367174,
+        "policy_regret": 0.0,
+        "intervention_rate": 0.3566666666666667,
+        "abstention_rate": 0.6433333333333333
+      }
+    },
+    "40": {
+      "Do Nothing": {
+        "incremental_revenue": 0,
+        "net_incremental_revenue": 0,
+        "gross_recovery": 205362551,
+        "policy_regret": 130061541.0,
+        "intervention_rate": 0.0,
+        "abstention_rate": 1.0
+      },
+      "Historical Policy": {
+        "incremental_revenue": 63170500,
+        "net_incremental_revenue": 62716310,
+        "gross_recovery": 268533051,
+        "policy_regret": 67345231.0,
+        "intervention_rate": 0.7593333333333333,
+        "abstention_rate": 0.24066666666666667
+      },
+      "Naive Propensity": {
+        "incremental_revenue": 102188117,
+        "net_incremental_revenue": 101993117,
+        "gross_recovery": 307550668,
+        "policy_regret": 224263081.24252468,
+        "intervention_rate": 1.0,
+        "abstention_rate": 0.0
+      },
+      "Propensity": {
+        "incremental_revenue": 78380509,
+        "net_incremental_revenue": 76593749,
+        "gross_recovery": 283743060,
+        "policy_regret": 245478555.50376886,
+        "intervention_rate": 0.9186666666666666,
+        "abstention_rate": 0.08133333333333333
+      },
+      "T-Learner": {
+        "incremental_revenue": 78380509,
+        "net_incremental_revenue": 76593749,
+        "gross_recovery": 283743060,
+        "policy_regret": -4417881.880528256,
+        "intervention_rate": 0.9186666666666666,
+        "abstention_rate": 0.08133333333333333
+      },
+      "DR-Learner": {
+        "incremental_revenue": 76399205,
+        "net_incremental_revenue": 75143405,
+        "gross_recovery": 281761756,
+        "policy_regret": -1475200.0826715827,
+        "intervention_rate": 0.9433333333333334,
+        "abstention_rate": 0.056666666666666664
+      },
+      "Support-Aware Causal": {
+        "incremental_revenue": 73299628,
+        "net_incremental_revenue": 72799678,
+        "gross_recovery": 278662179,
+        "policy_regret": -38973910.278045684,
+        "intervention_rate": 0.9346666666666666,
+        "abstention_rate": 0.06533333333333333
+      },
+      "Oracle": {
+        "incremental_revenue": 130148431,
+        "net_incremental_revenue": 130061541.0,
+        "gross_recovery": 335510982,
+        "policy_regret": 0.0,
+        "intervention_rate": 0.36333333333333334,
+        "abstention_rate": 0.6366666666666667
+      }
+    },
+    "50": {
+      "Do Nothing": {
+        "incremental_revenue": 0,
+        "net_incremental_revenue": 0,
+        "gross_recovery": 201390985,
+        "policy_regret": 153936632.0,
+        "intervention_rate": 0.0,
+        "abstention_rate": 1.0
+      },
+      "Historical Policy": {
+        "incremental_revenue": 61128312,
+        "net_incremental_revenue": 60686322,
+        "gross_recovery": 262519297,
+        "policy_regret": 93250310.0,
+        "intervention_rate": 0.7746666666666666,
+        "abstention_rate": 0.22533333333333333
+      },
+      "Naive Propensity": {
+        "incremental_revenue": 113914921,
+        "net_incremental_revenue": 113719921,
+        "gross_recovery": 315305906,
+        "policy_regret": 234558208.25998747,
+        "intervention_rate": 1.0,
+        "abstention_rate": 0.0
+      },
+      "Propensity": {
+        "incremental_revenue": 86152217,
+        "net_incremental_revenue": 85120527,
+        "gross_recovery": 287543202,
+        "policy_regret": 260408012.14635897,
+        "intervention_rate": 0.9473333333333334,
+        "abstention_rate": 0.05266666666666667
+      },
+      "T-Learner": {
+        "incremental_revenue": 86152217,
+        "net_incremental_revenue": 85120527,
+        "gross_recovery": 287543202,
+        "policy_regret": 35167545.07423273,
+        "intervention_rate": 0.9473333333333334,
+        "abstention_rate": 0.05266666666666667
+      },
+      "DR-Learner": {
+        "incremental_revenue": 58644296,
+        "net_incremental_revenue": 57048646,
+        "gross_recovery": 260035281,
+        "policy_regret": 69330742.20126736,
+        "intervention_rate": 0.8953333333333333,
+        "abstention_rate": 0.10466666666666667
+      },
+      "Support-Aware Causal": {
+        "incremental_revenue": 86966500,
+        "net_incremental_revenue": 86510490,
+        "gross_recovery": 288357485,
+        "policy_regret": -12422902.794547886,
+        "intervention_rate": 0.9426666666666667,
+        "abstention_rate": 0.05733333333333333
+      },
+      "Oracle": {
+        "incremental_revenue": 154030762,
+        "net_incremental_revenue": 153936632.0,
+        "gross_recovery": 355421747,
+        "policy_regret": 0.0,
+        "intervention_rate": 0.388,
+        "abstention_rate": 0.612
+      }
+    }
+  },
+  "summary": {
+    "Do Nothing": {
+      "incremental_revenue": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "net_incremental_revenue": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gross_recovery": {
+        "mean": 202060897.0,
+        "std": 4049387.0751730814,
+        "ci_95": [
+          198511452.73121995,
+          205610341.26878005
+        ]
+      },
+      "intervention_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "abstention_rate": {
+        "mean": 1.0,
+        "std": 0.0,
+        "ci_95": [
+          1.0,
+          1.0
+        ]
+      },
+      "policy_regret": {
+        "mean": 128774151.2,
+        "std": 14592371.188003235,
+        "ci_95": [
+          115983373.89972045,
+          141564928.50027958
+        ]
+      },
+      "oracle_capture_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci_95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "Historical Policy": {
+      "incremental_revenue": {
+        "mean": 57236374.8,
+        "std": 7388234.83034857,
+        "ci_95": [
+          50760301.43675871,
+          63712448.16324128
+        ]
+      },
+      "net_incremental_revenue": {
+        "mean": 56782540.8,
+        "std": 7399698.574199773,
+        "ci_95": [
+          50296419.022231765,
+          63268662.57776823
+        ]
+      },
+      "gross_recovery": {
+        "mean": 259297271.8,
+        "std": 9295285.47951475,
+        "ci_95": [
+          251149594.84063503,
+          267444948.759365
+        ]
+      },
+      "intervention_rate": {
+        "mean": 0.7722666666666667,
+        "std": 0.009058820134113618,
+        "ci_95": [
+          0.7643262607212645,
+          0.7802070726120688
+        ]
+      },
+      "abstention_rate": {
+        "mean": 0.22773333333333334,
+        "std": 0.009058820134113615,
+        "ci_95": [
+          0.2197929273879312,
+          0.2356737392787355
+        ]
+      },
+      "policy_regret": {
+        "mean": 71991610.4,
+        "std": 11501536.890307445,
+        "ci_95": [
+          61910068.81368,
+          82073151.98632
+        ]
+      },
+      "oracle_capture_rate": {
+        "mean": 0.4420757694803621,
+        "std": 0.04549617110937642,
+        "ci_95": [
+          0.40219661720428324,
+          0.48195492175644095
+        ]
+      }
+    },
+    "Naive Propensity": {
+      "incremental_revenue": {
+        "mean": 90543348.6,
+        "std": 17001811.974217273,
+        "ci_95": [
+          75640603.33251226,
+          105446093.86748773
+        ]
+      },
+      "net_incremental_revenue": {
+        "mean": 90348348.6,
+        "std": 17001811.974217273,
+        "ci_95": [
+          75445603.33251226,
+          105251093.86748773
+        ]
+      },
+      "gross_recovery": {
+        "mean": 292604245.6,
+        "std": 19077410.72536307,
+        "ci_95": [
+          275882157.81109464,
+          309326333.3889054
+        ]
+      },
+      "intervention_rate": {
+        "mean": 1.0,
+        "std": 0.0,
+        "ci_95": [
+          1.0,
+          1.0
+        ]
+      },
+      "abstention_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "policy_regret": {
+        "mean": 233520811.29077786,
+        "std": 6787132.581832608,
+        "ci_95": [
+          227571627.27926758,
+          239469995.30228814
+        ]
+      },
+      "oracle_capture_rate": {
+        "mean": 0.6962171319268629,
+        "std": 0.06716471346981098,
+        "ci_95": [
+          0.6373446648438079,
+          0.7550895990099178
+        ]
+      }
+    },
+    "Propensity": {
+      "incremental_revenue": {
+        "mean": 72904599.4,
+        "std": 9952909.720198544,
+        "ci_95": [
+          64180489.37835332,
+          81628709.42164668
+        ]
+      },
+      "net_incremental_revenue": {
+        "mean": 71631899.4,
+        "std": 10198730.314592237,
+        "ci_95": [
+          62692318.127094515,
+          80571480.6729055
+        ]
+      },
+      "gross_recovery": {
+        "mean": 274965496.4,
+        "std": 10673641.77417025,
+        "ci_95": [
+          265609636.87878573,
+          284321355.9212142
+        ]
+      },
+      "intervention_rate": {
+        "mean": 0.9501333333333333,
+        "std": 0.024182270824350274,
+        "ci_95": [
+          0.9289366383792189,
+          0.9713300282874476
+        ]
+      },
+      "abstention_rate": {
+        "mean": 0.04986666666666666,
+        "std": 0.024182270824350264,
+        "ci_95": [
+          0.028669971712552294,
+          0.07106336162078103
+        ]
+      },
+      "policy_regret": {
+        "mean": 247891773.03743148,
+        "std": 10408178.31768488,
+        "ci_95": [
+          238768602.49524063,
+          257014943.57962233
+        ]
+      },
+      "oracle_capture_rate": {
+        "mean": 0.556213808287771,
+        "std": 0.048567309454132936,
+        "ci_95": [
+          0.5136426845616769,
+          0.5987849320138651
+        ]
+      }
+    },
+    "T-Learner": {
+      "incremental_revenue": {
+        "mean": 72904599.4,
+        "std": 9952909.720198544,
+        "ci_95": [
+          64180489.37835332,
+          81628709.42164668
+        ]
+      },
+      "net_incremental_revenue": {
+        "mean": 71631899.4,
+        "std": 10198730.314592237,
+        "ci_95": [
+          62692318.127094515,
+          80571480.6729055
+        ]
+      },
+      "gross_recovery": {
+        "mean": 274965496.4,
+        "std": 10673641.77417025,
+        "ci_95": [
+          265609636.87878573,
+          284321355.9212142
+        ]
+      },
+      "intervention_rate": {
+        "mean": 0.9501333333333333,
+        "std": 0.024182270824350274,
+        "ci_95": [
+          0.9289366383792189,
+          0.9713300282874476
+        ]
+      },
+      "abstention_rate": {
+        "mean": 0.04986666666666666,
+        "std": 0.024182270824350264,
+        "ci_95": [
+          0.028669971712552294,
+          0.07106336162078103
+        ]
+      },
+      "policy_regret": {
+        "mean": 23631663.009744998,
+        "std": 14881203.752565656,
+        "ci_95": [
+          10587712.804062387,
+          36675613.21542761
+        ]
+      },
+      "oracle_capture_rate": {
+        "mean": 0.556213808287771,
+        "std": 0.048567309454132936,
+        "ci_95": [
+          0.5136426845616769,
+          0.5987849320138651
+        ]
+      }
+    },
+    "DR-Learner": {
+      "incremental_revenue": {
+        "mean": 61627822.8,
+        "std": 8197623.275287281,
+        "ci_95": [
+          54442289.18418908,
+          68813356.41581091
+        ]
+      },
+      "net_incremental_revenue": {
+        "mean": 60316654.8,
+        "std": 8149541.799569627,
+        "ci_95": [
+          53173266.45586905,
+          67460043.14413095
+        ]
+      },
+      "gross_recovery": {
+        "mean": 263688719.8,
+        "std": 9550169.406869669,
+        "ci_95": [
+          255317627.22776344,
+          272059812.3722366
+        ]
+      },
+      "intervention_rate": {
+        "mean": 0.9339999999999999,
+        "std": 0.03170138447730286,
+        "ci_95": [
+          0.9062125113365345,
+          0.9617874886634654
+        ]
+      },
+      "abstention_rate": {
+        "mean": 0.066,
+        "std": 0.03170138447730285,
+        "ci_95": [
+          0.03821251133653453,
+          0.09378748866346548
+        ]
+      },
+      "policy_regret": {
+        "mean": 42990977.85112516,
+        "std": 25026956.797913328,
+        "ci_95": [
+          21053882.99645197,
+          64928072.70579834
+        ]
+      },
+      "oracle_capture_rate": {
+        "mean": 0.4749907248915206,
+        "std": 0.0858618299489694,
+        "ci_95": [
+          0.39972951262365886,
+          0.5502519371593824
+        ]
+      }
+    },
+    "Support-Aware Causal": {
+      "incremental_revenue": {
+        "mean": 69453036.6,
+        "std": 11807935.341851998,
+        "ci_95": [
+          59102924.92946511,
+          79803148.27053489
+        ]
+      },
+      "net_incremental_revenue": {
+        "mean": 68987252.6,
+        "std": 11816275.616797801,
+        "ci_95": [
+          58629830.356147006,
+          79344674.84385298
+        ]
+      },
+      "gross_recovery": {
+        "mean": 271513933.6,
+        "std": 13178458.274822751,
+        "ci_95": [
+          259962505.6118699,
+          283065361.5881302
+        ]
+      },
+      "intervention_rate": {
+        "mean": 0.9398666666666667,
+        "std": 0.009581463585718243,
+        "ci_95": [
+          0.9314681435372376,
+          0.9482651897960959
+        ]
+      },
+      "abstention_rate": {
+        "mean": 0.06013333333333333,
+        "std": 0.009581463585718231,
+        "ci_95": [
+          0.05173481020390423,
+          0.06853185646276243
+        ]
+      },
+      "policy_regret": {
+        "mean": -14149208.940894479,
+        "std": 14144511.632009877,
+        "ci_95": [
+          -26547420.031837024,
+          -1750997.849951934
+        ]
+      },
+      "oracle_capture_rate": {
+        "mean": 0.5328531360759651,
+        "std": 0.042921876991610555,
+        "ci_95": [
+          0.49523045208331595,
+          0.5704758200686142
+        ]
+      }
+    },
+    "Oracle": {
+      "incremental_revenue": {
+        "mean": 128865183.2,
+        "std": 14594139.433722775,
+        "ci_95": [
+          116072855.96400955,
+          141657510.43599045
+        ]
+      },
+      "net_incremental_revenue": {
+        "mean": 128774151.2,
+        "std": 14592371.188003235,
+        "ci_95": [
+          115983373.89972045,
+          141564928.50027958
+        ]
+      },
+      "gross_recovery": {
+        "mean": 330926080.2,
+        "std": 16370441.73285638,
+        "ci_95": [
+          316576755.3497444,
+          345275405.0502556
+        ]
+      },
+      "intervention_rate": {
+        "mean": 0.3706666666666667,
+        "std": 0.010970667963052912,
+        "ci_95": [
+          0.36105045221167226,
+          0.38028288112166114
+        ]
+      },
+      "abstention_rate": {
+        "mean": 0.6293333333333333,
+        "std": 0.010970667963052913,
+        "ci_95": [
+          0.6197171188783388,
+          0.6389495477883278
+        ]
+      },
+      "policy_regret": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "oracle_capture_rate": {
+        "mean": 1.0,
+        "std": 0.0,
+        "ci_95": [
+          1.0,
+          1.0
+        ]
+      }
+    }
+  }
+}

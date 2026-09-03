@@ -1,0 +1,67 @@
+{
+  "DoNothing": {
+    "incremental_revenue": 0.0,
+    "net_incremental_revenue": 0.0,
+    "interventions": 0,
+    "action_distribution": {
+      "0": 1500,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    }
+  },
+  "FixedDunning": {
+    "incremental_revenue": 79997688.0,
+    "net_incremental_revenue": 79812168.0,
+    "interventions": 1220,
+    "action_distribution": {
+      "0": 280,
+      "1": 673,
+      "2": 547,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    }
+  },
+  "T-Learner": {
+    "incremental_revenue": 91590058.0,
+    "net_incremental_revenue": 91102098.0,
+    "interventions": 1293,
+    "action_distribution": {
+      "0": 207,
+      "1": 424,
+      "2": 736,
+      "3": 3,
+      "4": 6,
+      "5": 124
+    }
+  },
+  "DoublyRobust": {
+    "incremental_revenue": 90856557.0,
+    "net_incremental_revenue": 90183487.0,
+    "interventions": 1265,
+    "action_distribution": {
+      "0": 235,
+      "1": 327,
+      "2": 712,
+      "3": 6,
+      "4": 18,
+      "5": 202
+    }
+  },
+  "Oracle": {
+    "incremental_revenue": 131937871.0,
+    "net_incremental_revenue": 131778991.0,
+    "interventions": 583,
+    "action_distribution": {
+      "0": 917,
+      "1": 10,
+      "2": 394,
+      "3": 105,
+      "4": 46,
+      "5": 28
+    }
+  }
+}

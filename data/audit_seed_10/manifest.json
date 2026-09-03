@@ -1,0 +1,11 @@
+{
+  "dataset_version": "1.0",
+  "num_customers": 500,
+  "seed": 10,
+  "timestamp": "2026-09-02T22:35:52.989200",
+  "splits": {
+    "train": 350,
+    "val": 75,
+    "test": 75
+  }
+}

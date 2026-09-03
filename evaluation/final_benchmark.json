@@ -1,0 +1,866 @@
+{
+  "raw": {
+    "10": {
+      "Do Nothing": {
+        "incremental_revenue": 0.0,
+        "net_incremental_revenue": 0.0,
+        "gross_recovery": 6553266.0,
+        "policy_regret": 11246582.0,
+        "interventions": 0,
+        "intervention_rate": 0.0,
+        "abstention_rate": 1.0
+      },
+      "Fixed Dunning": {
+        "incremental_revenue": 5343678.0,
+        "net_incremental_revenue": 5332008.0,
+        "gross_recovery": 11896944.0,
+        "policy_regret": 5914574.0,
+        "interventions": 75,
+        "intervention_rate": 1.0,
+        "abstention_rate": 0.0
+      },
+      "Propensity": {
+        "incremental_revenue": 7330133.0,
+        "net_incremental_revenue": 7318873.0,
+        "gross_recovery": 13883399.0,
+        "policy_regret": 3927709.0,
+        "interventions": 71,
+        "intervention_rate": 0.9466666666666667,
+        "abstention_rate": 0.05333333333333334
+      },
+      "T-Learner": {
+        "incremental_revenue": 7330133.0,
+        "net_incremental_revenue": 7318873.0,
+        "gross_recovery": 13883399.0,
+        "policy_regret": 3927709.0,
+        "interventions": 71,
+        "intervention_rate": 0.9466666666666667,
+        "abstention_rate": 0.05333333333333334
+      },
+      "DR-Learner": {
+        "incremental_revenue": 5206655.0,
+        "net_incremental_revenue": 5184745.0,
+        "gross_recovery": 11759921.0,
+        "policy_regret": 6061837.0,
+        "interventions": 63,
+        "intervention_rate": 0.84,
+        "abstention_rate": 0.16
+      },
+      "Oracle": {
+        "incremental_revenue": 11253632.0,
+        "net_incremental_revenue": 11246582.0,
+        "gross_recovery": 17806898.0,
+        "policy_regret": 0.0,
+        "interventions": 34,
+        "intervention_rate": 0.4533333333333333,
+        "abstention_rate": 0.5466666666666666
+      }
+    },
+    "20": {
+      "Do Nothing": {
+        "incremental_revenue": 0.0,
+        "net_incremental_revenue": 0.0,
+        "gross_recovery": 9493287.0,
+        "policy_regret": 6410895.0,
+        "interventions": 0,
+        "intervention_rate": 0.0,
+        "abstention_rate": 1.0
+      },
+      "Fixed Dunning": {
+        "incremental_revenue": 3307038.0,
+        "net_incremental_revenue": 3295208.0,
+        "gross_recovery": 12800325.0,
+        "policy_regret": 3115687.0,
+        "interventions": 75,
+        "intervention_rate": 1.0,
+        "abstention_rate": 0.0
+      },
+      "Propensity": {
+        "incremental_revenue": 3109308.0,
+        "net_incremental_revenue": 3088008.0,
+        "gross_recovery": 12602595.0,
+        "policy_regret": 3322887.0,
+        "interventions": 75,
+        "intervention_rate": 1.0,
+        "abstention_rate": 0.0
+      },
+      "T-Learner": {
+        "incremental_revenue": 3109308.0,
+        "net_incremental_revenue": 3088008.0,
+        "gross_recovery": 12602595.0,
+        "policy_regret": 3322887.0,
+        "interventions": 75,
+        "intervention_rate": 1.0,
+        "abstention_rate": 0.0
+      },
+      "DR-Learner": {
+        "incremental_revenue": 4416705.0,
+        "net_incremental_revenue": 4385865.0,
+        "gross_recovery": 13909992.0,
+        "policy_regret": 2025030.0,
+        "interventions": 67,
+        "intervention_rate": 0.8933333333333333,
+        "abstention_rate": 0.10666666666666667
+      },
+      "Oracle": {
+        "incremental_revenue": 6414975.0,
+        "net_incremental_revenue": 6410895.0,
+        "gross_recovery": 15908262.0,
+        "policy_regret": 0.0,
+        "interventions": 29,
+        "intervention_rate": 0.38666666666666666,
+        "abstention_rate": 0.6133333333333333
+      }
+    },
+    "30": {
+      "Do Nothing": {
+        "incremental_revenue": 0.0,
+        "net_incremental_revenue": 0.0,
+        "gross_recovery": 13341406.0,
+        "policy_regret": 6422343.0,
+        "interventions": 0,
+        "intervention_rate": 0.0,
+        "abstention_rate": 1.0
+      },
+      "Fixed Dunning": {
+        "incremental_revenue": 2187278.0,
+        "net_incremental_revenue": 2175568.0,
+        "gross_recovery": 15528684.0,
+        "policy_regret": 4246775.0,
+        "interventions": 75,
+        "intervention_rate": 1.0,
+        "abstention_rate": 0.0
+      },
+      "Propensity": {
+        "incremental_revenue": 4595781.0,
+        "net_incremental_revenue": 4574421.0,
+        "gross_recovery": 17937187.0,
+        "policy_regret": 1847922.0,
+        "interventions": 66,
+        "intervention_rate": 0.88,
+        "abstention_rate": 0.12
+      },
+      "T-Learner": {
+        "incremental_revenue": 4595781.0,
+        "net_incremental_revenue": 4574421.0,
+        "gross_recovery": 17937187.0,
+        "policy_regret": 1847922.0,
+        "interventions": 66,
+        "intervention_rate": 0.88,
+        "abstention_rate": 0.12
+      },
+      "DR-Learner": {
+        "incremental_revenue": 4482282.0,
+        "net_incremental_revenue": 4458162.0,
+        "gross_recovery": 17823688.0,
+        "policy_regret": 1964181.0,
+        "interventions": 61,
+        "intervention_rate": 0.8133333333333334,
+        "abstention_rate": 0.18666666666666668
+      },
+      "Oracle": {
+        "incremental_revenue": 6426013.0,
+        "net_incremental_revenue": 6422343.0,
+        "gross_recovery": 19767419.0,
+        "policy_regret": 0.0,
+        "interventions": 25,
+        "intervention_rate": 0.3333333333333333,
+        "abstention_rate": 0.6666666666666666
+      }
+    },
+    "40": {
+      "Do Nothing": {
+        "incremental_revenue": 0.0,
+        "net_incremental_revenue": 0.0,
+        "gross_recovery": 15685043.0,
+        "policy_regret": 5886006.0,
+        "interventions": 0,
+        "intervention_rate": 0.0,
+        "abstention_rate": 1.0
+      },
+      "Fixed Dunning": {
+        "incremental_revenue": 4712893.0,
+        "net_incremental_revenue": 4701103.0,
+        "gross_recovery": 20397936.0,
+        "policy_regret": 1184903.0,
+        "interventions": 75,
+        "intervention_rate": 1.0,
+        "abstention_rate": 0.0
+      },
+      "Propensity": {
+        "incremental_revenue": -4905102.0,
+        "net_incremental_revenue": -4932322.0,
+        "gross_recovery": 10779941.0,
+        "policy_regret": 10818328.0,
+        "interventions": 70,
+        "intervention_rate": 0.9333333333333333,
+        "abstention_rate": 0.06666666666666667
+      },
+      "T-Learner": {
+        "incremental_revenue": -4905102.0,
+        "net_incremental_revenue": -4932322.0,
+        "gross_recovery": 10779941.0,
+        "policy_regret": 10818328.0,
+        "interventions": 70,
+        "intervention_rate": 0.9333333333333333,
+        "abstention_rate": 0.06666666666666667
+      },
+      "DR-Learner": {
+        "incremental_revenue": -4312211.0,
+        "net_incremental_revenue": -4328191.0,
+        "gross_recovery": 11372832.0,
+        "policy_regret": 10214197.0,
+        "interventions": 64,
+        "intervention_rate": 0.8533333333333334,
+        "abstention_rate": 0.14666666666666667
+      },
+      "Oracle": {
+        "incremental_revenue": 5889896.0,
+        "net_incremental_revenue": 5886006.0,
+        "gross_recovery": 21574939.0,
+        "policy_regret": 0.0,
+        "interventions": 29,
+        "intervention_rate": 0.38666666666666666,
+        "abstention_rate": 0.6133333333333333
+      }
+    },
+    "50": {
+      "Do Nothing": {
+        "incremental_revenue": 0.0,
+        "net_incremental_revenue": 0.0,
+        "gross_recovery": 8200914.0,
+        "policy_regret": 6628418.0,
+        "interventions": 0,
+        "intervention_rate": 0.0,
+        "abstention_rate": 1.0
+      },
+      "Fixed Dunning": {
+        "incremental_revenue": 5991471.0,
+        "net_incremental_revenue": 5979721.0,
+        "gross_recovery": 14192385.0,
+        "policy_regret": 648697.0,
+        "interventions": 75,
+        "intervention_rate": 1.0,
+        "abstention_rate": 0.0
+      },
+      "Propensity": {
+        "incremental_revenue": 5227780.0,
+        "net_incremental_revenue": 5190260.0,
+        "gross_recovery": 13428694.0,
+        "policy_regret": 1438158.0,
+        "interventions": 61,
+        "intervention_rate": 0.8133333333333334,
+        "abstention_rate": 0.18666666666666668
+      },
+      "T-Learner": {
+        "incremental_revenue": 5227780.0,
+        "net_incremental_revenue": 5190260.0,
+        "gross_recovery": 13428694.0,
+        "policy_regret": 1438158.0,
+        "interventions": 61,
+        "intervention_rate": 0.8133333333333334,
+        "abstention_rate": 0.18666666666666668
+      },
+      "DR-Learner": {
+        "incremental_revenue": 5555648.0,
+        "net_incremental_revenue": 5520808.0,
+        "gross_recovery": 13756562.0,
+        "policy_regret": 1107610.0,
+        "interventions": 63,
+        "intervention_rate": 0.84,
+        "abstention_rate": 0.16
+      },
+      "Oracle": {
+        "incremental_revenue": 6632178.0,
+        "net_incremental_revenue": 6628418.0,
+        "gross_recovery": 14833092.0,
+        "policy_regret": 0.0,
+        "interventions": 28,
+        "intervention_rate": 0.37333333333333335,
+        "abstention_rate": 0.6266666666666667
+      }
+    },
+    "60": {
+      "Do Nothing": {
+        "incremental_revenue": 0.0,
+        "net_incremental_revenue": 0.0,
+        "gross_recovery": 8042875.0,
+        "policy_regret": 8200215.0,
+        "interventions": 0,
+        "intervention_rate": 0.0,
+        "abstention_rate": 1.0
+      },
+      "Fixed Dunning": {
+        "incremental_revenue": 7296075.0,
+        "net_incremental_revenue": 7284725.0,
+        "gross_recovery": 15338950.0,
+        "policy_regret": 915490.0,
+        "interventions": 75,
+        "intervention_rate": 1.0,
+        "abstention_rate": 0.0
+      },
+      "Propensity": {
+        "incremental_revenue": 6836342.0,
+        "net_incremental_revenue": 6817392.0,
+        "gross_recovery": 14879217.0,
+        "policy_regret": 1382823.0,
+        "interventions": 67,
+        "intervention_rate": 0.8933333333333333,
+        "abstention_rate": 0.10666666666666667
+      },
+      "T-Learner": {
+        "incremental_revenue": 6836342.0,
+        "net_incremental_revenue": 6817392.0,
+        "gross_recovery": 14879217.0,
+        "policy_regret": 1382823.0,
+        "interventions": 67,
+        "intervention_rate": 0.8933333333333333,
+        "abstention_rate": 0.10666666666666667
+      },
+      "DR-Learner": {
+        "incremental_revenue": 3849096.0,
+        "net_incremental_revenue": 3830476.0,
+        "gross_recovery": 11891971.0,
+        "policy_regret": 4369739.0,
+        "interventions": 65,
+        "intervention_rate": 0.8666666666666667,
+        "abstention_rate": 0.13333333333333333
+      },
+      "Oracle": {
+        "incremental_revenue": 8204365.0,
+        "net_incremental_revenue": 8200215.0,
+        "gross_recovery": 16247240.0,
+        "policy_regret": 0.0,
+        "interventions": 30,
+        "intervention_rate": 0.4,
+        "abstention_rate": 0.6
+      }
+    },
+    "70": {
+      "Do Nothing": {
+        "incremental_revenue": 0.0,
+        "net_incremental_revenue": 0.0,
+        "gross_recovery": 11093662.0,
+        "policy_regret": 5991556.0,
+        "interventions": 0,
+        "intervention_rate": 0.0,
+        "abstention_rate": 1.0
+      },
+      "Fixed Dunning": {
+        "incremental_revenue": 3503598.0,
+        "net_incremental_revenue": 3491768.0,
+        "gross_recovery": 14597260.0,
+        "policy_regret": 2499788.0,
+        "interventions": 75,
+        "intervention_rate": 1.0,
+        "abstention_rate": 0.0
+      },
+      "Propensity": {
+        "incremental_revenue": 3605139.0,
+        "net_incremental_revenue": 3551009.0,
+        "gross_recovery": 14698801.0,
+        "policy_regret": 2440547.0,
+        "interventions": 75,
+        "intervention_rate": 1.0,
+        "abstention_rate": 0.0
+      },
+      "T-Learner": {
+        "incremental_revenue": 3605139.0,
+        "net_incremental_revenue": 3551009.0,
+        "gross_recovery": 14698801.0,
+        "policy_regret": 2440547.0,
+        "interventions": 75,
+        "intervention_rate": 1.0,
+        "abstention_rate": 0.0
+      },
+      "DR-Learner": {
+        "incremental_revenue": 3623251.0,
+        "net_incremental_revenue": 3576011.0,
+        "gross_recovery": 14716913.0,
+        "policy_regret": 2415545.0,
+        "interventions": 70,
+        "intervention_rate": 0.9333333333333333,
+        "abstention_rate": 0.06666666666666667
+      },
+      "Oracle": {
+        "incremental_revenue": 5995896.0,
+        "net_incremental_revenue": 5991556.0,
+        "gross_recovery": 17089558.0,
+        "policy_regret": 0.0,
+        "interventions": 31,
+        "intervention_rate": 0.41333333333333333,
+        "abstention_rate": 0.5866666666666667
+      }
+    },
+    "80": {
+      "Do Nothing": {
+        "incremental_revenue": 0.0,
+        "net_incremental_revenue": 0.0,
+        "gross_recovery": 8050157.0,
+        "policy_regret": 4176490.0,
+        "interventions": 0,
+        "intervention_rate": 0.0,
+        "abstention_rate": 1.0
+      },
+      "Fixed Dunning": {
+        "incremental_revenue": 1786031.0,
+        "net_incremental_revenue": 1774281.0,
+        "gross_recovery": 9836188.0,
+        "policy_regret": 2402209.0,
+        "interventions": 75,
+        "intervention_rate": 1.0,
+        "abstention_rate": 0.0
+      },
+      "Propensity": {
+        "incremental_revenue": 3603804.0,
+        "net_incremental_revenue": 3593934.0,
+        "gross_recovery": 11653961.0,
+        "policy_regret": 582556.0,
+        "interventions": 75,
+        "intervention_rate": 1.0,
+        "abstention_rate": 0.0
+      },
+      "T-Learner": {
+        "incremental_revenue": 3603804.0,
+        "net_incremental_revenue": 3593934.0,
+        "gross_recovery": 11653961.0,
+        "policy_regret": 582556.0,
+        "interventions": 75,
+        "intervention_rate": 1.0,
+        "abstention_rate": 0.0
+      },
+      "DR-Learner": {
+        "incremental_revenue": 3544599.0,
+        "net_incremental_revenue": 3531749.0,
+        "gross_recovery": 11594756.0,
+        "policy_regret": 644741.0,
+        "interventions": 69,
+        "intervention_rate": 0.92,
+        "abstention_rate": 0.08
+      },
+      "Oracle": {
+        "incremental_revenue": 4180160.0,
+        "net_incremental_revenue": 4176490.0,
+        "gross_recovery": 12230317.0,
+        "policy_regret": 0.0,
+        "interventions": 26,
+        "intervention_rate": 0.3466666666666667,
+        "abstention_rate": 0.6533333333333333
+      }
+    },
+    "90": {
+      "Do Nothing": {
+        "incremental_revenue": 0.0,
+        "net_incremental_revenue": 0.0,
+        "gross_recovery": 8581194.0,
+        "policy_regret": 4583821.0,
+        "interventions": 0,
+        "intervention_rate": 0.0,
+        "abstention_rate": 1.0
+      },
+      "Fixed Dunning": {
+        "incremental_revenue": 3830555.0,
+        "net_incremental_revenue": 3818965.0,
+        "gross_recovery": 12411749.0,
+        "policy_regret": 764856.0,
+        "interventions": 75,
+        "intervention_rate": 1.0,
+        "abstention_rate": 0.0
+      },
+      "Propensity": {
+        "incremental_revenue": 2875878.0,
+        "net_incremental_revenue": 2848818.0,
+        "gross_recovery": 11457072.0,
+        "policy_regret": 1735003.0,
+        "interventions": 70,
+        "intervention_rate": 0.9333333333333333,
+        "abstention_rate": 0.06666666666666667
+      },
+      "T-Learner": {
+        "incremental_revenue": 2875878.0,
+        "net_incremental_revenue": 2848818.0,
+        "gross_recovery": 11457072.0,
+        "policy_regret": 1735003.0,
+        "interventions": 70,
+        "intervention_rate": 0.9333333333333333,
+        "abstention_rate": 0.06666666666666667
+      },
+      "DR-Learner": {
+        "incremental_revenue": 2167461.0,
+        "net_incremental_revenue": 2132631.0,
+        "gross_recovery": 10748655.0,
+        "policy_regret": 2451190.0,
+        "interventions": 63,
+        "intervention_rate": 0.84,
+        "abstention_rate": 0.16
+      },
+      "Oracle": {
+        "incremental_revenue": 4587741.0,
+        "net_incremental_revenue": 4583821.0,
+        "gross_recovery": 13168935.0,
+        "policy_regret": 0.0,
+        "interventions": 28,
+        "intervention_rate": 0.37333333333333335,
+        "abstention_rate": 0.6266666666666667
+      }
+    },
+    "100": {
+      "Do Nothing": {
+        "incremental_revenue": 0.0,
+        "net_incremental_revenue": 0.0,
+        "gross_recovery": 11487452.0,
+        "policy_regret": 3914576.0,
+        "interventions": 0,
+        "intervention_rate": 0.0,
+        "abstention_rate": 1.0
+      },
+      "Fixed Dunning": {
+        "incremental_revenue": 1994503.0,
+        "net_incremental_revenue": 1982833.0,
+        "gross_recovery": 13481955.0,
+        "policy_regret": 1931743.0,
+        "interventions": 75,
+        "intervention_rate": 1.0,
+        "abstention_rate": 0.0
+      },
+      "Propensity": {
+        "incremental_revenue": 297445.0,
+        "net_incremental_revenue": 254765.0,
+        "gross_recovery": 11784897.0,
+        "policy_regret": 3659811.0,
+        "interventions": 71,
+        "intervention_rate": 0.9466666666666667,
+        "abstention_rate": 0.05333333333333334
+      },
+      "T-Learner": {
+        "incremental_revenue": 297445.0,
+        "net_incremental_revenue": 254765.0,
+        "gross_recovery": 11784897.0,
+        "policy_regret": 3659811.0,
+        "interventions": 71,
+        "intervention_rate": 0.9466666666666667,
+        "abstention_rate": 0.05333333333333334
+      },
+      "DR-Learner": {
+        "incremental_revenue": 616203.0,
+        "net_incremental_revenue": 581393.0,
+        "gross_recovery": 12103655.0,
+        "policy_regret": 3333183.0,
+        "interventions": 72,
+        "intervention_rate": 0.96,
+        "abstention_rate": 0.04
+      },
+      "Oracle": {
+        "incremental_revenue": 3917726.0,
+        "net_incremental_revenue": 3914576.0,
+        "gross_recovery": 15405178.0,
+        "policy_regret": 0.0,
+        "interventions": 23,
+        "intervention_rate": 0.30666666666666664,
+        "abstention_rate": 0.6933333333333334
+      }
+    }
+  },
+  "summary": {
+    "Do Nothing": {
+      "incremental_revenue": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "net_incremental_revenue": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "gross_recovery": {
+        "mean": 10052925.6,
+        "std": 2681118.9272822347,
+        "ci_95": [
+          8391150.872352153,
+          11714700.327647846
+        ]
+      },
+      "intervention_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "abstention_rate": {
+        "mean": 1.0,
+        "std": 0.0,
+        "ci_95": [
+          1.0,
+          1.0
+        ]
+      },
+      "policy_regret": {
+        "mean": 6346090.2,
+        "std": 2039723.3349176452,
+        "ci_95": [
+          5081856.579152894,
+          7610323.820847106
+        ]
+      }
+    },
+    "Fixed Dunning": {
+      "incremental_revenue": {
+        "mean": 3995312.0,
+        "std": 1735179.9693255452,
+        "ci_95": [
+          2919836.3127395143,
+          5070787.687260486
+        ]
+      },
+      "net_incremental_revenue": {
+        "mean": 3983618.0,
+        "std": 1735251.1544063585,
+        "ci_95": [
+          2908098.1917693187,
+          5059137.808230681
+        ]
+      },
+      "gross_recovery": {
+        "mean": 14048237.6,
+        "std": 2672527.205602787,
+        "ci_95": [
+          12391788.076619895,
+          15704687.123380104
+        ]
+      },
+      "intervention_rate": {
+        "mean": 1.0,
+        "std": 0.0,
+        "ci_95": [
+          1.0,
+          1.0
+        ]
+      },
+      "abstention_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "policy_regret": {
+        "mean": 2362472.2,
+        "std": 1609694.0307732273,
+        "ci_95": [
+          1364773.5032487689,
+          3360170.8967512315
+        ]
+      }
+    },
+    "Propensity": {
+      "incremental_revenue": {
+        "mean": 3257650.8,
+        "std": 3329651.9527950906,
+        "ci_95": [
+          1193911.138653853,
+          5321390.461346147
+        ]
+      },
+      "net_incremental_revenue": {
+        "mean": 3230515.8,
+        "std": 3333389.088010453,
+        "ci_95": [
+          1164459.8382497574,
+          5296571.761750242
+        ]
+      },
+      "gross_recovery": {
+        "mean": 13310576.4,
+        "std": 2038340.2066619396,
+        "ci_95": [
+          12047200.050927391,
+          14573952.74907261
+        ]
+      },
+      "intervention_rate": {
+        "mean": 0.9346666666666668,
+        "std": 0.05702241274758159,
+        "ci_95": [
+          0.8993238090823935,
+          0.97000952425094
+        ]
+      },
+      "abstention_rate": {
+        "mean": 0.06533333333333333,
+        "std": 0.057022412747581595,
+        "ci_95": [
+          0.02999047574906006,
+          0.1006761909176066
+        ]
+      },
+      "policy_regret": {
+        "mean": 3115574.4,
+        "std": 2766442.9330483647,
+        "ci_95": [
+          1400915.305679332,
+          4830233.494320668
+        ]
+      }
+    },
+    "T-Learner": {
+      "incremental_revenue": {
+        "mean": 3257650.8,
+        "std": 3329651.9527950906,
+        "ci_95": [
+          1193911.138653853,
+          5321390.461346147
+        ]
+      },
+      "net_incremental_revenue": {
+        "mean": 3230515.8,
+        "std": 3333389.088010453,
+        "ci_95": [
+          1164459.8382497574,
+          5296571.761750242
+        ]
+      },
+      "gross_recovery": {
+        "mean": 13310576.4,
+        "std": 2038340.2066619396,
+        "ci_95": [
+          12047200.050927391,
+          14573952.74907261
+        ]
+      },
+      "intervention_rate": {
+        "mean": 0.9346666666666668,
+        "std": 0.05702241274758159,
+        "ci_95": [
+          0.8993238090823935,
+          0.97000952425094
+        ]
+      },
+      "abstention_rate": {
+        "mean": 0.06533333333333333,
+        "std": 0.057022412747581595,
+        "ci_95": [
+          0.02999047574906006,
+          0.1006761909176066
+        ]
+      },
+      "policy_regret": {
+        "mean": 3115574.4,
+        "std": 2766442.9330483647,
+        "ci_95": [
+          1400915.305679332,
+          4830233.494320668
+        ]
+      }
+    },
+    "DR-Learner": {
+      "incremental_revenue": {
+        "mean": 2914968.9,
+        "std": 2770967.448799695,
+        "ci_95": [
+          1197505.4817629638,
+          4632432.3182370365
+        ]
+      },
+      "net_incremental_revenue": {
+        "mean": 2887364.9,
+        "std": 2768685.3096664287,
+        "ci_95": [
+          1171315.9662522743,
+          4603413.833747726
+        ]
+      },
+      "gross_recovery": {
+        "mean": 12967894.5,
+        "std": 2021529.6015248082,
+        "ci_95": [
+          11714937.471938886,
+          14220851.528061114
+        ]
+      },
+      "intervention_rate": {
+        "mean": 0.8760000000000001,
+        "std": 0.04582090740650555,
+        "ci_95": [
+          0.8475999073553938,
+          0.9044000926446064
+        ]
+      },
+      "abstention_rate": {
+        "mean": 0.124,
+        "std": 0.04582090740650555,
+        "ci_95": [
+          0.09559990735539368,
+          0.15240009264460633
+        ]
+      },
+      "policy_regret": {
+        "mean": 3458725.3,
+        "std": 2703646.4901009914,
+        "ci_95": [
+          1782987.8442587531,
+          5134462.755741246
+        ]
+      }
+    },
+    "Oracle": {
+      "incremental_revenue": {
+        "mean": 6350258.2,
+        "std": 2040605.4097214288,
+        "ci_95": [
+          5085477.86352536,
+          7615038.5364746405
+        ]
+      },
+      "net_incremental_revenue": {
+        "mean": 6346090.2,
+        "std": 2039723.3349176452,
+        "ci_95": [
+          5081856.579152894,
+          7610323.820847106
+        ]
+      },
+      "gross_recovery": {
+        "mean": 16403183.8,
+        "std": 2685336.216423031,
+        "ci_95": [
+          14738795.169461817,
+          18067572.430538185
+        ]
+      },
+      "intervention_rate": {
+        "mean": 0.3773333333333334,
+        "std": 0.039575525545748884,
+        "ci_95": [
+          0.35280416847007545,
+          0.40186249819659137
+        ]
+      },
+      "abstention_rate": {
+        "mean": 0.6226666666666667,
+        "std": 0.03957552554574889,
+        "ci_95": [
+          0.5981375018034087,
+          0.6471958315299247
+        ]
+      },
+      "policy_regret": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci_95": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  }
+}
