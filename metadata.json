@@ -1,0 +1,6 @@
+{
+  "name": "CausalRecover - Causal Payment Recovery Console",
+  "description": "Enterprise fintech operations console for autonomous causal decisioning and verified payment recovery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
