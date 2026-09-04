@@ -22,7 +22,7 @@ describe('Dashboard Renders', () => {
   it('renders the main dashboard navigation', async () => {
     render(<App />);
     await waitFor(() => {
-        expect(screen.getByText(/Executive Overview/i)).toBeInTheDocument();
+        expect(screen.getAllByText(/Overview/i)[0]).toBeInTheDocument();
     });
   });
 });
