@@ -3,3 +3,7 @@
 *.db
 node_modules/
 dist/
+.vite/
+.env
+.env.*
+coverage/
