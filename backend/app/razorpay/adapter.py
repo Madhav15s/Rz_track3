@@ -22,13 +22,14 @@ class OutcomeLedger:
         # Set of processed webhook IDs to ensure idempotency
         self.processed_webhooks = set()
 
-    def record_execution(self, correlation_id: str, case_id: str, action_id: int, provider_id: str, is_simulated: bool):
+    def record_execution(self, correlation_id: str, case_id: str, action_id: int, provider_id: str, is_simulated: bool, expected_amount: int = 0):
         self.executions[correlation_id] = {
             "case_id": case_id,
             "action_id": action_id,
             "provider_id": provider_id,
             "status": "PENDING_VERIFICATION",
             "recovered_amount": 0,
+            "expected_amount": expected_amount,
             "simulated": is_simulated,
             "timestamp": time.time()
         }
@@ -48,6 +49,12 @@ class OutcomeLedger:
         execution = self.executions[correlation_id]
         
         if event_type in ['payment_link.paid', 'order.paid', 'payment.captured']:
+            # Security fix: Verify amount matches the execution context exactly
+            if execution.get("expected_amount", 0) > 0 and amount != execution["expected_amount"]:
+                execution["status"] = "VERIFIED_FAILED"
+                execution["recovered_amount"] = amount
+                return {"status": "VERIFIED_FAILED", "reason": "AMOUNT_MISMATCH", "correlation_id": correlation_id}
+                
             execution["status"] = "VERIFIED_RECOVERED"
             execution["recovered_amount"] = amount
             return {"status": "VERIFIED_RECOVERED", "correlation_id": correlation_id}
@@ -134,7 +141,8 @@ class RazorpayTestAdapter:
                 case_id=case_id,
                 action_id=action_id,
                 provider_id=result.get("provider_id"),
-                is_simulated=result.get("simulated", True)
+                is_simulated=result.get("simulated", True),
+                expected_amount=amount
             )
             
         return result
